@@ -1,24 +1,24 @@
 const express = require('express');
-const connectToDatabase = require('./db');
-const productRoutes = require('./routes/productRoutes');
+const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
+const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware
-app.use(express.json());
+app.use(cors());
+app.use(bodyParser.json());
 
-// Koneksi ke MongoDB
-connectToDatabase();
-
-// Gunakan rute produk
-app.use('/api', productRoutes);
-// Gunakan rute lainnya sesuai kebutuhan
-
-// Route default untuk path root
-app.get('/', (req, res) => {
-  res.send('Welcome to MyPOSApp!');
+// Database Connection
+mongoose.connect('mongodb+srv://haris:Nasution2104@cluster0.pi7ljnq.mongodb.net/local?retryWrites=true&w=majority', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
 });
+
+// Routes
+app.use('/api', require('./routes/barangRoutes'));
+// Tambahkan routes untuk entitas lainnya
 
 // Start Server
 app.listen(PORT, () => {
