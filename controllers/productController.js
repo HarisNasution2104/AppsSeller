@@ -1,12 +1,16 @@
 const Product = require('../models/Product');
 
-exports.createProduct = async (req, res) => {
+const getAllProducts = async (req, res) => {
   try {
-    const product = new Product(req.body);
-    await product.save();
-    res.status(201).json(product);
+    const products = await Product.find();
+    res.json(products);
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    console.error('Error fetching products:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
   }
 };
-// Implementasi endpoint untuk update dan delete
+
+module.exports = {
+  getAllProducts,
+  // Tambahkan fungsi controller lainnya sesuai kebutuhan
+};
