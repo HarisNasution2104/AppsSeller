@@ -27,3 +27,7 @@ app.use('/api', require('./routes/serviceRoutes'));
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+const { MongoClient } = require('mongodb');
+
+// Gantilah dengan informasi koneksi MongoDB Atlas Anda
+const mongoURI = 'mongodb+srv://username:password@cluster.mongodb.net/your_database_name';
