@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Database Connection
-mongoose.connect('mongodb+srv://haris:Nasution2104@cluster0.pi7ljnq.mongodb.net/local?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://haris:Nasution2104@cluster0.pi7ljnq.mongodb.net/nama_database?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
