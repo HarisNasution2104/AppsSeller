@@ -22,7 +22,7 @@
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="{{ asset('AdminLTE/dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image">
+                <img src="{{ secure_asset('AdminLTE/dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image">
 
               </li>
               <!-- Menu Footer-->

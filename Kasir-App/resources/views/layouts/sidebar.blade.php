@@ -4,7 +4,7 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="{{ asset('AdminLTE/dist/img/user2-160x160.jpg') }}" class="img-circle" alt="User Image">
+          <img src="{{ secure_asset('AdminLTE/dist/img/user2-160x160.jpg') }}" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
 
@@ -70,10 +70,10 @@
               </span>
             </a>
             <ul class="treeview-menu">
-              <li><a href="{{ asset('AdminLTE/pages/layout/top-nav.html') }}"><i class="fa fa-circle-o"></i> Gudang</a></li>
-              <li><a href="{{ asset('AdminLTE/pages/layout/boxed.html') }}"><i class="fa fa-circle-o"></i> Toko 1</a></li>
-              <li><a href="{{ asset('AdminLTE/pages/layout/fixed.html') }}"><i class="fa fa-circle-o"></i> Toko 2</a></li>
-              <li><a href="{{ asset('AdminLTE/pages/layout/collapsed-sidebar.html') }}"><i class="fa fa-circle-o"></i> Toko 3</a></li>
+              <li><a href="{{ secure_asset('AdminLTE/pages/layout/top-nav.html') }}"><i class="fa fa-circle-o"></i> Gudang</a></li>
+              <li><a href="{{ secure_asset('AdminLTE/pages/layout/boxed.html') }}"><i class="fa fa-circle-o"></i> Toko 1</a></li>
+              <li><a href="{{ secure_asset('AdminLTE/pages/layout/fixed.html') }}"><i class="fa fa-circle-o"></i> Toko 2</a></li>
+              <li><a href="{{ secure_asset('AdminLTE/pages/layout/collapsed-sidebar.html') }}"><i class="fa fa-circle-o"></i> Toko 3</a></li>
             </ul>
           </li>
           <li>
@@ -87,15 +87,15 @@
                   </span>
                 </a>
                 <ul class="treeview-menu">
-                  <li><a href="{{ asset('AdminLTE/pages/examples/invoice.html') }}"><i class="fa fa-circle-o"></i>Keuangan</a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/profile.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/login.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/register.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/lockscreen.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/404.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/500.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/blank.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/pace.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/invoice.html') }}"><i class="fa fa-circle-o"></i>Keuangan</a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/profile.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/login.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/register.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/lockscreen.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/404.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/500.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/blank.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/pace.html') }}"><i class="fa fa-circle-o"></i></a></li>
                 </ul>
               </li>
               <li class="treeview">
@@ -106,15 +106,15 @@
                   </span>
                 </a>
                 <ul class="treeview-menu">
-                  <li><a href="{{ asset('AdminLTE/pages/examples/invoice.html') }}"><i class="fa fa-circle-o"></i>Keuangan</a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/profile.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/login.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/register.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/lockscreen.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/404.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/500.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/blank.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/pace.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/invoice.html') }}"><i class="fa fa-circle-o"></i>Keuangan</a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/profile.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/login.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/register.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/lockscreen.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/404.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/500.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/blank.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/pace.html') }}"><i class="fa fa-circle-o"></i></a></li>
                 </ul>
               </li>
               <li class="treeview">
@@ -125,15 +125,15 @@
                   </span>
                 </a>
                 <ul class="treeview-menu">
-                  <li><a href="{{ asset('AdminLTE/pages/examples/invoice.html') }}"><i class="fa fa-circle-o"></i>Keuangan</a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/profile.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/login.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/register.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/lockscreen.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/404.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/500.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/blank.html') }}"><i class="fa fa-circle-o"></i></a></li>
-                  <li><a href="{{ asset('AdminLTE/pages/examples/pace.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/invoice.html') }}"><i class="fa fa-circle-o"></i>Keuangan</a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/profile.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/login.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/register.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/lockscreen.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/404.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/500.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/blank.html') }}"><i class="fa fa-circle-o"></i></a></li>
+                  <li><a href="{{ secure_asset('AdminLTE/pages/examples/pace.html') }}"><i class="fa fa-circle-o"></i></a></li>
                 </ul>
               </li>
             <li class="treeview">
@@ -145,14 +145,14 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ asset('AdminLTE/pages/layout/top-nav.html') }}"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/layout/boxed.html') }}"><i class="fa fa-circle-o"></i> Boxed</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/layout/fixed.html') }}"><i class="fa fa-circle-o"></i> Fixed</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/layout/collapsed-sidebar.html') }}"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/layout/top-nav.html') }}"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/layout/boxed.html') }}"><i class="fa fa-circle-o"></i> Boxed</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/layout/fixed.html') }}"><i class="fa fa-circle-o"></i> Fixed</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/layout/collapsed-sidebar.html') }}"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
           </ul>
         </li>
         <li>
-          <a href="{{ asset('AdminLTE/pages/widgets.html') }}">
+          <a href="{{ secure_asset('AdminLTE/pages/widgets.html') }}">
             <i class="fa fa-th"></i> <span>Widgets</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
@@ -168,10 +168,10 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ asset('AdminLTE/pages/charts/chartjs.html') }}"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/charts/morris.html') }}"><i class="fa fa-circle-o"></i> Morris</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/charts/flot.html') }}"><i class="fa fa-circle-o"></i> Flot</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/charts/inline.html') }}"><i class="fa fa-circle-o"></i> Inline charts</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/charts/chartjs.html') }}"><i class="fa fa-circle-o"></i> ChartJS</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/charts/morris.html') }}"><i class="fa fa-circle-o"></i> Morris</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/charts/flot.html') }}"><i class="fa fa-circle-o"></i> Flot</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/charts/inline.html') }}"><i class="fa fa-circle-o"></i> Inline charts</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -183,12 +183,12 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ asset('AdminLTE/pages/UI/general.html') }}"><i class="fa fa-circle-o"></i> General</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/UI/icons.html') }}"><i class="fa fa-circle-o"></i> Icons</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/UI/buttons.html') }}"><i class="fa fa-circle-o"></i> Buttons</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/UI/sliders.html') }}"><i class="fa fa-circle-o"></i> Sliders</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/UI/timeline.html') }}"><i class="fa fa-circle-o"></i> Timeline</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/UI/modals.html') }}"><i class="fa fa-circle-o"></i> Modals</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/UI/general.html') }}"><i class="fa fa-circle-o"></i> General</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/UI/icons.html') }}"><i class="fa fa-circle-o"></i> Icons</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/UI/buttons.html') }}"><i class="fa fa-circle-o"></i> Buttons</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/UI/sliders.html') }}"><i class="fa fa-circle-o"></i> Sliders</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/UI/timeline.html') }}"><i class="fa fa-circle-o"></i> Timeline</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/UI/modals.html') }}"><i class="fa fa-circle-o"></i> Modals</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -199,9 +199,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ asset('AdminLTE/pages/forms/general.html') }}"><i class="fa fa-circle-o"></i> General Elements</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/forms/advanced.html') }}"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/forms/editors.html') }}"><i class="fa fa-circle-o"></i> Editors</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/forms/general.html') }}"><i class="fa fa-circle-o"></i> General Elements</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/forms/advanced.html') }}"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/forms/editors.html') }}"><i class="fa fa-circle-o"></i> Editors</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -212,8 +212,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ asset('AdminLTE/pages/tables/simple.html') }}"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/tables/data.html') }}"><i class="fa fa-circle-o"></i> Data tables</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/tables/simple.html') }}"><i class="fa fa-circle-o"></i> Simple tables</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/tables/data.html') }}"><i class="fa fa-circle-o"></i> Data tables</a></li>
           </ul>
         </li>
         <li>
@@ -226,7 +226,7 @@
           </a>
         </li>
         <li>
-          <a href="{{ asset('AdminLTE/pages/mailbox/mailbox.html') }}">
+          <a href="{{ secure_asset('AdminLTE/pages/mailbox/mailbox.html') }}">
             <i class="fa fa-envelope"></i> <span>Mailbox</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-yellow">12</small>
@@ -243,15 +243,15 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ asset('AdminLTE/pages/examples/invoice.html') }}"><i class="fa fa-circle-o"></i> Invoice</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/examples/profile.html') }}"><i class="fa fa-circle-o"></i> Profile</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/examples/login.html') }}"><i class="fa fa-circle-o"></i> Login</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/examples/register.html') }}"><i class="fa fa-circle-o"></i> Register</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/examples/lockscreen.html') }}"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/examples/404.html') }}"><i class="fa fa-circle-o"></i> 404 Error</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/examples/500.html') }}"><i class="fa fa-circle-o"></i> 500 Error</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/examples/blank.html') }}"><i class="fa fa-circle-o"></i> Blank Page</a></li>
-            <li><a href="{{ asset('AdminLTE/pages/examples/pace.html') }}"><i class="fa fa-circle-o"></i> Pace Page</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/examples/invoice.html') }}"><i class="fa fa-circle-o"></i> Invoice</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/examples/profile.html') }}"><i class="fa fa-circle-o"></i> Profile</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/examples/login.html') }}"><i class="fa fa-circle-o"></i> Login</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/examples/register.html') }}"><i class="fa fa-circle-o"></i> Register</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/examples/lockscreen.html') }}"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/examples/404.html') }}"><i class="fa fa-circle-o"></i> 404 Error</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/examples/500.html') }}"><i class="fa fa-circle-o"></i> 500 Error</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/examples/blank.html') }}"><i class="fa fa-circle-o"></i> Blank Page</a></li>
+            <li><a href="{{ secure_asset('AdminLTE/pages/examples/pace.html') }}"><i class="fa fa-circle-o"></i> Pace Page</a></li>
           </ul>
         </li>
         <li class="treeview">
