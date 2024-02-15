@@ -24,6 +24,9 @@
               <li class="user-header">
                 <img src="{{ secure_asset('AdminLTE/dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image">
 
+                <p>
+                  {{ auth()->user()->name }} - {{ auth()->user()->email }}
+                </p>
               </li>
               <!-- Menu Footer-->
               <li class="user-footer">
@@ -63,7 +66,7 @@
   </div>
 </div>
 
-
+  <form action="{{ route('logout') }}" method="post" id="logout-form">
   @csrf
   </form>
   

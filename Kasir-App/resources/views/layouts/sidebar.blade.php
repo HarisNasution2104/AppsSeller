@@ -7,7 +7,7 @@
           <img src="{{ secure_asset('AdminLTE/dist/img/user2-160x160.jpg') }}" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-
+          <p>{{ auth()->user()->name }}</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -26,7 +26,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         
         <li>
-            <a href="#">
+            <a href="{{ route('dashboard') }}">
                 <i class="fa fa-cubes"></i> <span>Dashboard</span>
                 <span class="pull-right-container">
                 </span>
@@ -41,7 +41,7 @@
           </li>
           <li class="header">MASTER</li>
           <li>
-            <a href="">
+            <a href="{{ route('kategori.index') }}">
                 <i class="fa fa-database"></i> <span>Kategori</span>
                 <span class="pull-right-container">
                 </span>
